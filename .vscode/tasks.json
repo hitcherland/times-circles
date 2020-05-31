@@ -18,6 +18,12 @@
 			"args": ["bin/post-build.sh"],
 			"group": "build",
 			"label": "post-build"
+		},{
+			"type": "shell",
+			"command": "/usr/bin/bash",
+			"args": ["bin/publish.sh"],
+			"group": "build",
+			"label": "publish"
 		}, {
 			"group": {
 				"kind": "build",
@@ -26,5 +32,6 @@
 			"label": "build all",
 			"dependsOn": ["haxe: build.hxml", "post-build"]
 		}, 
+		
 	]
 }
