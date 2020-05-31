@@ -1,0 +1,9 @@
+-lib domkit
+-lib heaps
+-lib hsluv
+-main Main
+--each
+-debug
+--js build/js/dev/times-circles.js
+--next
+--js build/js/prod/times-circles.js

@@ -1,0 +1,52 @@
+settings-view {
+    padding: 5;
+    vspacing: 5;
+}
+
+settings-view > #bg {
+    background: #fff;
+    position: absolute;
+    alpha: 0.5;
+}
+
+settings-view > #titleContainer {
+    background: #111 10 10;
+}
+
+settings-view > #titleContainer > #title {
+    text-color: #eee;
+}
+
+text-setting, setting-label {
+    padding: 5;
+    hspacing: 5;
+
+    background: #fff;
+}
+
+text-setting > flow, setting-label > flow {
+    background: #333 5 5;
+}
+
+text-setting > flow > #input, setting-label > flow > text {
+    text-color: #fff;
+}
+
+table {
+    background:white;
+    padding: 2px;
+    vspacing: 2px;
+}
+
+tr {
+    hspacing: 2px;
+}
+
+td {
+    background: black;
+    padding: 2px;
+}
+
+td text {
+    text-color: white;
+}
